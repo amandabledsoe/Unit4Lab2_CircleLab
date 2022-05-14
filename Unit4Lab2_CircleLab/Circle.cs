@@ -9,8 +9,6 @@ namespace Unit4Lab2_CircleLab
     public class Circle
     {
         public double Radius { get; private set; }
-        public double Circumference;
-        public double Area;
 
         public Circle(double radius)
         {
@@ -24,7 +22,7 @@ namespace Unit4Lab2_CircleLab
 
         public string CalculateFormattedCircumference()
         {
-            return $"The Circumference of this circle is {CalculateCircumference()}";
+            return $"The Circumference of this circle, rounded to the nearest tenth, is {FormatNumber(CalculateCircumference())}.";
         }
 
         public double CalculateArea()
@@ -34,12 +32,12 @@ namespace Unit4Lab2_CircleLab
 
         public string CalculateFormattedArea()
         {
-            return $"The Area of this circle is {CalculateArea()}";
+            return $"The Area of this circle, rounded to the nearest tenth, is {FormatNumber(CalculateArea())}.";
         }
 
         private string FormatNumber(double x)
         {
-            return x.ToString();
+            return String.Format("{0:0.00}", x);
         }
     }
 }

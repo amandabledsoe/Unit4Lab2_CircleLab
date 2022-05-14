@@ -1,7 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using Unit4Lab2_CircleLab;
 
-List<Circle> allCircles = new List<Circle>();
+List<Circle> allTheCircles = new List<Circle>();
 
 Console.WriteLine("Welcome to the Circle Objects Program!");
 PauseAndClearScreen();
@@ -24,13 +24,13 @@ while (runningProgram)
                 Console.WriteLine(thisCircle.CalculateFormattedCircumference());
                 Console.WriteLine(thisCircle.CalculateFormattedArea());
                 PauseAndClearScreen();
-                allCircles.Add(thisCircle);
+                allTheCircles.Add(thisCircle);
                 calculatingCircleStuff = false;
             }
             else
             {
                 Console.WriteLine();
-                Console.WriteLine("Sorry, we need a number greater than zero to calculate a Circumference. Please try again.");
+                Console.WriteLine("Sorry, we need a number greater than zero to calculate a Circumference. Let's try again.");
                 Console.WriteLine("");
             }
         }
@@ -41,24 +41,26 @@ while (runningProgram)
             PauseAndClearScreen();
         }
     }
-    if (allCircles.Count <= 0)
+    if (allTheCircles.Count == 1)
     {
-        Console.WriteLine($"So far, we haven't calculated information for any circles yet!");
-        Console.WriteLine();
-    }
-    else if (allCircles.Count == 1)
-    {
-        Console.WriteLine($"So far, we've calculated the information for {allCircles.Count} circle.");
+        Console.WriteLine($"So far, we've calculated the information for {allTheCircles.Count} circle.");
         Console.WriteLine();
     }
     else
     {
-        Console.WriteLine($"So far, we've calculated the information for {allCircles.Count} circles.");
+        Console.WriteLine($"So far, we've calculated the information for {allTheCircles.Count} circles.");
         Console.WriteLine();
     }
     runningProgram = WannRestart();
 }
-Console.WriteLine($"Thank you for using the Circle Object Program to calculate information for {allCircles.Count} circles today!");
+if (allTheCircles.Count == 1)
+{
+    Console.WriteLine($"Thank you for using the Circle Object Program to calculate information for your circle today!");
+}
+else
+{
+    Console.WriteLine($"Thank you for using the Circle Object Program to calculate information for {allTheCircles.Count} circles today!");
+}
 Console.WriteLine("Goodbye...");
 
 static void PauseAndClearScreen()
