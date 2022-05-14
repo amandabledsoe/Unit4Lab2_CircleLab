@@ -1,0 +1,15 @@
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\bin\Debug\net6.0\Unit4Lab2_CircleLab.exe
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\bin\Debug\net6.0\Unit4Lab2_CircleLab.deps.json
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\bin\Debug\net6.0\Unit4Lab2_CircleLab.runtimeconfig.json
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\bin\Debug\net6.0\Unit4Lab2_CircleLab.dll
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\bin\Debug\net6.0\Unit4Lab2_CircleLab.pdb
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.csproj.AssemblyReference.cache
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.AssemblyInfoInputs.cache
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.AssemblyInfo.cs
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.csproj.CoreCompileInputs.cache
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.dll
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\refint\Unit4Lab2_CircleLab.dll
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.pdb
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\Unit4Lab2_CircleLab.genruntimeconfig.cache
+C:\Repositories\Unit4Lab2_CircleLab\Unit4Lab2_CircleLab\obj\Debug\net6.0\ref\Unit4Lab2_CircleLab.dll
