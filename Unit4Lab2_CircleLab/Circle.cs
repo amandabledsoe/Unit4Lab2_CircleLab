@@ -22,19 +22,19 @@ namespace Unit4Lab2_CircleLab
             return (2 * Math.PI * Radius);
         }
 
-        public string CalculateFormattedCircumference(Circle thisCircle)
+        public string CalculateFormattedCircumference()
         {
-            return $"The Circumference is {CalculateCircumference()}";
+            return $"The Circumference of this circle is {CalculateCircumference()}";
         }
 
         public double CalculateArea()
         {
-            return Area;
+            return (Math.PI*(Radius*Radius));
         }
 
         public string CalculateFormattedArea()
         {
-            return "";
+            return $"The Area of this circle is {CalculateArea()}";
         }
 
         private string FormatNumber(double x)

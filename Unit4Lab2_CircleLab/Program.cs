@@ -20,15 +20,16 @@ while (runningProgram)
             if (theRadius > 0)
             {
                 Circle thisCircle = new Circle(theRadius);
-                thisCircle.CalculateCircumference();
                 Console.WriteLine();
-                Console.WriteLine(thisCircle.CalculateFormattedCircumference(thisCircle));
+                Console.WriteLine(thisCircle.CalculateFormattedCircumference());
+                Console.WriteLine(thisCircle.CalculateFormattedArea());
                 PauseAndClearScreen();
                 allCircles.Add(thisCircle);
                 calculatingCircleStuff = false;
             }
             else
             {
+                Console.WriteLine();
                 Console.WriteLine("Sorry, we need a number greater than zero to calculate a Circumference. Please try again.");
                 Console.WriteLine("");
             }
@@ -40,9 +41,24 @@ while (runningProgram)
             PauseAndClearScreen();
         }
     }
+    if (allCircles.Count <= 0)
+    {
+        Console.WriteLine($"So far, we haven't calculated information for any circles yet!");
+        Console.WriteLine();
+    }
+    else if (allCircles.Count == 1)
+    {
+        Console.WriteLine($"So far, we've calculated the information for {allCircles.Count} circle.");
+        Console.WriteLine();
+    }
+    else
+    {
+        Console.WriteLine($"So far, we've calculated the information for {allCircles.Count} circles.");
+        Console.WriteLine();
+    }
     runningProgram = WannRestart();
 }
-Console.WriteLine("Thank you for using the Circle Object Program!");
+Console.WriteLine($"Thank you for using the Circle Object Program to calculate information for {allCircles.Count} circles today!");
 Console.WriteLine("Goodbye...");
 
 static void PauseAndClearScreen()
@@ -55,8 +71,8 @@ static void PauseAndClearScreen()
 static bool WannRestart()
 {
     bool askingUser = true;
-    string yesInput = "[yY]";
-    string noInput = "[nN]";
+    string yesInput = "[yY][eE][sS]";
+    string noInput = "[nN][oO]";
     while (askingUser)
     {
         Console.WriteLine("Would you like to calculate the information for another circle?");
